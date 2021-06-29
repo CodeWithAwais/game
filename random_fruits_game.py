@@ -1,10 +1,9 @@
 import random
 
 
-amount = int(input("Enter the amount of money you wants to insert into the slow machin: "))
-fruits = ["Mangoes", "Banana", "Oranges", "Peach", "Grapes", "Apple", "Berries"]
-
 while True:
+    amount = int(input("Enter the amount of money you wants to insert into the slow machin: "))
+    fruits = ["Mangoes", "Banana", "Oranges", "Peach", "Grapes", "Apple", "Berries"]
     matched = []
     for i in range(3):
         random_fruit = random.choice(fruits)
